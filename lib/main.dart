@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:testing_app/validators/email_input_field_validator.dart';
 import 'package:testing_app/validators/password_input_field_validator.dart';
 import 'package:uniform/uniform.dart';
+
+import 'validators/email_input_field_validator.dart';
 
 void main() {
   runApp(const MyApp());
