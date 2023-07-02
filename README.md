@@ -17,7 +17,7 @@ Uniform handles the repetitive and annoying stuff—keeping track of values/erro
 
 ## Installation
 
-Install Uniform through terminal 
+Install Uniform using terminal 
 
 ```bash
    $ flutter pub add uniform
