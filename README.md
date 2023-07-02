@@ -1,16 +1,29 @@
-# testing_app
 
-A new Flutter project.
+# Uniform Examples
 
-## Getting Started
+Uniform handles the repetitive and annoying stuff—keeping track of values/errors/visited fields, orchestrating validation, and handling submission.
+## Features
 
-This project is a starting point for a Flutter application.
+- Unified form representation using controllers.
+- Easy and customizable form validation API.
+- Built-in support for form submission and state management.
+- Builders for quickly creating form fields.
+- Compatible with any state management solution or vanilla Flutter States.
+- Supports for global and local validators.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+## Installation
+
+Install Uniform through terminal 
+
+```bash
+   $ flutter pub add uniform
+```
+Install Uniform through [pub.dev](https://pub.dev/packages/uniform) 
+    
+
+
+    
