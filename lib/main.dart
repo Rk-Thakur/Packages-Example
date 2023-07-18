@@ -44,6 +44,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
     TextFieldController.create(formController, tag: 'password')
         .setValidators({const PasswordInputFieldValidator()});
+
+    FieldController.create(formController, tag: 'checkbox');
   }
 
   @override
@@ -87,6 +89,20 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                         enabled: !controller.isSubmitted,
                         onChanged: controller.onChanged);
+                  },
+                )),
+          ),
+          Container(
+            padding: const EdgeInsets.all(12),
+            child: InputForm(
+                controller: formController,
+                child: InputFieldBuilder<bool>(
+                  tag: 'checkbox',
+                  builder: (context, controller, _) {
+                    return Checkbox(
+                      value: controller.value ?? false,
+                      onChanged: controller.onChanged,
+                    );
                   },
                 )),
           ),
